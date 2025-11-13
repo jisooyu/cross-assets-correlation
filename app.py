@@ -205,4 +205,4 @@ def update_dashboard(n, date_key, n_vol, n_dd, n_corr):
 # -----------------------------------------------------------
 
 if __name__ == "__main__":
-    app.run(debug=True, host="0.0.0.0", port=8050)
+    app.run(host="127.0.0.1", port=8050, debug=True)
